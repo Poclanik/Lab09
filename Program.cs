@@ -43,10 +43,21 @@
 //Console.WriteLine("Работа с журналом завершена");
 
 //* a
-int n = 15;
-for (int i = 1; i <= n; i += 2) {Console.WriteLine(i);}
-Console.WriteLine("Готово");
-//b
-for (int i = 100; i >= 0; i -= 10) {
-    Console.WriteLine(i);
-}
+//int n = 15;
+//for (int i = 1; i <= n; i += 2) {Console.WriteLine(i);}
+//Console.WriteLine("Готово");
+////b
+//for (int i = 100; i >= 0; i -= 10) {
+//    Console.WriteLine(i);
+//}
+//**2
+//int n = 50;
+//int m = 7;
+//for (int i = n; i >= 0; i -= m) {
+//    Console.WriteLine(i);
+//}
+////3
+//int n = 10;
+//for (int i = 1; i <= n; i++) {
+//    Console.WriteLine($"{i} -> {i * i * i}");
+//}
