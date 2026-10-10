@@ -1,4 +1,5 @@
-﻿//int total = 8;
+﻿using System;
+//int total = 8;
 //for (int number = total; number >= 1; number--) {
 //    Console.WriteLine($"Упражнение {number}");
 //}
@@ -8,22 +9,44 @@
 //    Console.WriteLine($"Кабинет {room}");
 //}
 
-int total = 3;
-for (int week = 1; week <= totalWeeks; week++) {
-    for (int day = 1; day <= 5; day++) {
-        Console.WriteLine($"Неделя {week}, день {day}");
-    }
-    Console.WriteLine("^_^");
-}
+//int total = 3;
+//for (int week = 1; week <= totalWeeks; week++) {
+//    for (int day = 1; day <= 5; day++) {
+//        Console.WriteLine($"Неделя {week}, день {day}");
+//    }
+//    Console.WriteLine("^_^");
+//}
+//
+//int propusk = 0;
+//
+//for (int ticket = 1; ticket <= 30; ticket++) {
+//    if (ticket == 4 || ticket == 12 || ticket == 19) {
+//        propusk++; 
+//        continue;
+//    }
+//    Console.WriteLine($"Первый доступный билет: {ticket}");
+//    Console.WriteLine($"Пропущено билетов: {propusk}");
+//    break;
+//}
+//
+//for (;;) {
+//    Console.Write("Введите код группы (для выхода — «выход»): ");
+//    string groupCode = Console.ReadLine()!;
+//
+//    if (groupCode == "выход") {
+//        break;
+//    }
+//
+//    Console.WriteLine($"Записан код группы: {groupCode}");
+//}
+//
+//Console.WriteLine("Работа с журналом завершена");
 
-int propusk = 0;
-
-for (int ticket = 1; ticket <= 30; ticket++) {
-    if (ticket == 4 || ticket == 12 || ticket == 19) {
-        propusk++; 
-        continue;
-    }
-    Console.WriteLine($"Первый доступный билет: {ticket}");
-    Console.WriteLine($"Пропущено билетов: {propusk}");
-    break;
+//* a
+int n = 15;
+for (int i = 1; i <= n; i += 2) {Console.WriteLine(i);}
+Console.WriteLine("Готово");
+//b
+for (int i = 100; i >= 0; i -= 10) {
+    Console.WriteLine(i);
 }
